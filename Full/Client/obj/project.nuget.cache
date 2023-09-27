@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9jLmb9CVFmFXXe6X5lI/35MppqIq4YVcM7ENupBBHxGK6UhOcxgWkbqJHgaleJB40ykoQnsfhC15Dz07kDUnZw==",
+  "dgSpecHash": "zM2iDkghKodqswEYjXOhdGmXsuvmjdIsHsw+vMFk2EHQy1Y20EtxKQWaMbymFcHOtEtIwWxnYAL4KWfogvQiwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\delegate.sassbuilder\\1.4.0\\delegate.sassbuilder.1.4.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.10\\microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
@@ -13,6 +15,7 @@
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.10\\microsoft.aspnetcore.components.webassembly.7.0.10.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\7.0.10\\microsoft.aspnetcore.components.webassembly.devserver.7.0.10.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.10\\microsoft.aspnetcore.metadata.7.0.10.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",

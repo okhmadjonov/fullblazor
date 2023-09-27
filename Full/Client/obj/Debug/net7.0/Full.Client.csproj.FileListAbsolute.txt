@@ -834,3 +834,11 @@ C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\Full.Client.dll
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\refint\Full.Client.dll
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\Full.Client.pdb
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\ref\Full.Client.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\wwwroot\_framework\AutoMapper.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\wwwroot\_framework\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\wwwroot\_framework\AutoMapper.dll.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\wwwroot\_framework\AutoMapper.Extensions.Microsoft.DependencyInjection.dll.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\p6J+OO1u.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\UdQJi69+.gz
