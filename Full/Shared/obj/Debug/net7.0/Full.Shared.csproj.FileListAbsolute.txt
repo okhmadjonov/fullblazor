@@ -1,0 +1,11 @@
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\bin\Debug\net7.0\Full.Shared.deps.json
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\bin\Debug\net7.0\Full.Shared.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\bin\Debug\net7.0\Full.Shared.pdb
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\Full.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\Full.Shared.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\Full.Shared.AssemblyInfo.cs
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\Full.Shared.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\Full.Shared.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\refint\Full.Shared.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\Full.Shared.pdb
+C:\Users\pc\Desktop\fulls\Full\Full\Shared\obj\Debug\net7.0\ref\Full.Shared.dll

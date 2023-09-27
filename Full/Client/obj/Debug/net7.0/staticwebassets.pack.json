@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\Z2EZQPFY.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Full.Client.styles.css",
+      "PackagePath": "staticwebassets\\Full.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\bann.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bann.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\foot_logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\foot_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\home_banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\home_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\FooterStyle\\FooterStyle.css",
+      "PackagePath": "staticwebassets\\css\\FooterStyle\\FooterStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\HeaderStyle\\HeaderStyle.css",
+      "PackagePath": "staticwebassets\\css\\HeaderStyle\\HeaderStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\IndexPageStyle.css",
+      "PackagePath": "staticwebassets\\css\\IndexPageStyle\\IndexPageStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\IndexPageStyle.scss",
+      "PackagePath": "staticwebassets\\css\\IndexPageStyle\\IndexPageStyle.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\demo.css",
+      "PackagePath": "staticwebassets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\demo.scss",
+      "PackagePath": "staticwebassets\\css\\demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Full.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Full.Client.props",
+      "PackagePath": "build\\Full.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Full.Client.props",
+      "PackagePath": "buildMultiTargeting\\Full.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Full.Client.props",
+      "PackagePath": "buildTransitive\\Full.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

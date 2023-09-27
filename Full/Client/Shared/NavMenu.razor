@@ -1,0 +1,40 @@
+﻿
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="/"> <img src="/assets/img/logo.png" alt="Logo" /></a>
+        </div>
+        <div class="menu">
+            <a class="menu_item" href="#">Все курсы</a>
+            <a class="menu_item" href="#">Мои курсы</a>
+            <a class="menu_item" href="#">Домашние задания</a>
+            <a class="menu_item" href="#">О нас</a>
+            <a class="menu_item" href="#">Контакты</a>
+        </div>
+        <div class="lignin_signup">
+            <a href="#" class="signin">Войти</a>
+            <a class="signup" href="#">Регистрация</a>
+
+        </div>
+    </div>
+</header>
+
+
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
+
+
+
+
+
+
+
