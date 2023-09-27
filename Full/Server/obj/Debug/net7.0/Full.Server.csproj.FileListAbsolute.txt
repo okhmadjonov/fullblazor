@@ -53,3 +53,15 @@ C:\Users\pc\Desktop\fulls\Full\Full\Server\obj\Debug\net7.0\refint\Full.Server.d
 C:\Users\pc\Desktop\fulls\Full\Full\Server\obj\Debug\net7.0\Full.Server.pdb
 C:\Users\pc\Desktop\fulls\Full\Full\Server\obj\Debug\net7.0\Full.Server.genruntimeconfig.cache
 C:\Users\pc\Desktop\fulls\Full\Full\Server\obj\Debug\net7.0\ref\Full.Server.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Humanizer.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Npgsql.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\pc\Desktop\fulls\Full\Full\Server\bin\Debug\net7.0\System.CodeDom.dll
