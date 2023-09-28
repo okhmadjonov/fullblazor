@@ -85,14 +85,6 @@
       "PackagePath": "staticwebassets\\css\\HeaderStyle\\HeaderStyle.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\IndexPageStyle.css",
-      "PackagePath": "staticwebassets\\css\\IndexPageStyle\\IndexPageStyle.css"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\IndexPageStyle.scss",
-      "PackagePath": "staticwebassets\\css\\IndexPageStyle\\IndexPageStyle.scss"
-    },
-    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\ips.css",
       "PackagePath": "staticwebassets\\css\\IndexPageStyle\\ips.css"
     },

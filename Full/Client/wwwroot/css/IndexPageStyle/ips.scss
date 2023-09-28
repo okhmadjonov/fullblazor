@@ -1,23 +1,23 @@
-﻿.index-page {
+﻿.indexPage {
     width: 100%;
     height: 100%;
-    opacity:1;
+    opacity: 100%;
 
-    .index-banner {
+    .indexBanner {
         width: 100%;
         height: 768px;
         opacity: 100%;
-        background-image: url('/assets/img/bann.png');
+        background-image: url('/assets/img/home_banner.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
 
-        .container {
+        .containerBanner {
             width: 100%;
             height: 100%;
             padding-top: 140px;
 
-            h3 {
+            .index-banner-title {
                 width: 1240px;
                 height: 136px;
                 color: #fff;
@@ -32,7 +32,7 @@
                 font-family: "Public Sans", sans-serif;
             }
 
-            p {
+            .index-banner-subtitle {
                 width: 1240px;
                 height: 68px;
                 color: #cbcbcb;
@@ -47,7 +47,7 @@
                 justify-content: center;
             }
 
-            a {
+            .index-banner-order {
                 margin-top: 120px;
                 width: 358px;
                 height: 64px;
@@ -68,18 +68,21 @@
 
     .courses {
         width: 100%;
-        height: 820px;
+        height: auto;
+        //height: 820px;
         margin-top: 140px;
 
 
-        .container {
+        .containerCourse {
             width: 100%;
+            max-width:1290px;
+            margin:0 auto;
             height: 100%;
 
             .coursesWrapper {
                 width: 100%;
                 height: 100%;
-                //border: 1px solid teal;
+
 
                 .coursesTitle {
                     width: 100%;
@@ -92,7 +95,81 @@
                     color: #000;
                     font-weight: 700;
                     line-height: 51.37px;
-                    border: 1px solid black;
+                }
+
+                .coursesContent {
+                    width: 100%;
+                    height: 100%;
+                    margin-top: 50px;
+
+                    .courseItems {
+                        width: 100%;
+                        height: 100%;
+                        display: grid;
+                        justify-content: space-between;
+                        grid-template-columns: 30% 30% 30%;
+                        grid-row-gap: 50px;
+
+                        .courseItem {
+                            width: 100%;
+                            height: 380px;
+                            //border: 1px solid teal;
+                            background: #FFF;
+                            cursor: pointer;
+                            box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
+
+                            .courseImg {
+                                width: 100%;
+                                height: 68%;
+                                overflow: hidden;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            .courseTitle {
+                                width: 100%;
+                                height: 14%;
+                                display: flex;
+                                align-items: center;
+                                padding-left: 20px;
+                                //border: 1px solid black;
+
+                                h3 {
+                                    color: #000;
+                                    text-align: center;
+                                    font-family: "Public Sans", sans-serif;
+                                    font-size: 1.5em;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                }
+                            }
+
+                            .courseDescription {
+                                width: 100%;
+                                height: 18%;
+                                display: flex;
+                                justify-content:flex-start;
+                                //align-items: center;
+                                padding-left: 20px;
+                                //border: 1px solid black;
+
+                                p {
+                                    color: #000;
+                                    //text-align: center;
+                                    font-family: "Public Sans", sans-serif;
+                                    font-size: 0.875em;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    line-height: 19px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

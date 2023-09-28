@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nA1GPaOmk5mf1Qo5UwVIY++dWvMMJOWspPP8ECzNiE8=",
+  "Hash": "x+1E1TSiiidHoEPa0llkZa+Pwq89GDeiyNRSEWQhO8I=",
   "Source": "Full.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7393,40 +7393,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\HeaderStyle\\HeaderStyle.css"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\IndexPageStyle.css",
-      "SourceId": "Full.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/IndexPageStyle/IndexPageStyle.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\IndexPageStyle\\IndexPageStyle.css"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\IndexPageStyle.scss",
-      "SourceId": "Full.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/IndexPageStyle/IndexPageStyle.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\IndexPageStyle\\IndexPageStyle.scss"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\ips.css",

@@ -1,27 +1,74 @@
 ﻿@page "/"
-<div class="index-page">
-    <!--------------------------BANNER------------------------>
-    <div class="index-banner">
-        <div class="container">
-            <h3 class="index-banner-title">
-                Хотите научиться профессионально инвестировать и всегда оставаться в плюсе?
-            </h3>
-            <p class="index-banner-subtitle">
-                Грамотно разберем вашу финансовую ситуацию, разработаем стратегию и поможем эффективно <br /> инвестировать
+@using Full.Shared;
+@using Full.Client.Service
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject ApiServices ApiServices
+@inject NavigationManager NavigationManager
 
-            </p>
-            <a href="/" class="index-banner-order">Записаться на курс</a>
+
+
+
+
+    <div class="indexPage">
+        <!--------------------------BANNER------------------------>
+        <div class="indexBanner">
+            <div class="containerBanner">
+                <h3 class="index-banner-title">
+                    Хотите научиться профессионально инвестировать и всегда оставаться в плюсе?
+                </h3>
+                <p class="index-banner-subtitle">
+                    Грамотно разберем вашу финансовую ситуацию, разработаем стратегию и поможем эффективно <br /> инвестировать
+
+                </p>
+                <a href="/" class="index-banner-order">Записаться на курс</a>
+            </div>
         </div>
-    </div>
-    <!--------------------------COURSES------------------------>
-    <div class="courses">
-        <div class="container">
-            <div class="coursesWrapper">
-                <h3 class="coursesTitle">Все курсы</h3>
-                <div class="coursesContent">
+        <!--------------------------COURSES------------------------>
+        <div class="courses">
+            <div class="containerCourse">
+                <div class="coursesWrapper">
+                    <h3 class="coursesTitle">Все курсы</h3>
+                    <div class="coursesContent">
+                        <div class="courseItems">
+                            <!--?---------Course Items------------>
 
+                            @if (courses.Count <= 0){ <p><em>Loading...</em></p>}
+                            else  { @foreach (var course in courses.Take(6)){
+                                    <div class="courseItem">
+                                        <div class="courseImg">
+                                            <img src="@course.ImageUrl" alt="Course" />
+                                        </div>
+                                        <div class="courseTitle">
+                                            <h3>@course.Title</h3>
+                                        </div>
+                                        <div class="courseDescription">
+                                            <p>@course.Description</p>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div><!--?---------Course Items END------------>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+
+@code {
+    
+    private List<Course>? courses = new List<Course>();
+
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+
+    {
+        var result = ApiServices.GetAllCourses();
+        if (result is not null)
+
+        {
+            courses = await result;
+        }
+
+    }
+}
