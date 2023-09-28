@@ -6,7 +6,10 @@ height:384px;
 background-color:#111111;
 display:grid;
 grid-template-rows:330px 54px;
-margin-top:50px;
+/*margin-top:50px;
+position:fixed;
+bottom:0px;
+z-index:0;*/
 
 }
 

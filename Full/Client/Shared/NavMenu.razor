@@ -1,34 +1,79 @@
-﻿
+﻿@using Full.Client.Service
+@inject NavigationManager NavigationManager
+
+
 <header class="header">
     <div class="container">
         <div class="logo">
             <a href="/"> <img src="/assets/img/logo.png" alt="Logo" /></a>
         </div>
         <div class="menu">
-            <a class="menu_item" href="#">Все курсы</a>
-            <a class="menu_item" href="#">Мои курсы</a>
-            <a class="menu_item" href="#">Домашние задания</a>
-            <a class="menu_item" href="#">О нас</a>
-            <a class="menu_item" href="#">Контакты</a>
+            <a class="menu_item" @onclick="ToCourses">Все курсы</a>
+            <a class="menu_item" @onclick="ToMyCourses">Мои курсы</a>
+            <a class="menu_item" @onclick="ToHomeTask">Домашние задания</a>
+            <a class="menu_item" @onclick="ToAbout">О нас</a>
+            <a class="menu_item" @onclick="ToContact">Контакты</a>
         </div>
         <div class="lignin_signup">
-            <a href="#" class="signin">Войти</a>
-            <a class="signup" href="#">Регистрация</a>
+            <a @onclick="ToLogin" class="signin">Войти</a>
+            <a @onclick="ToRegistration" class="signup">Регистрация</a>
 
         </div>
     </div>
 </header>
 
-
-
 @code {
-    private bool collapseNavMenu = true;
+    //private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    //private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
+    //private void ToggleNavMenu()
+    //{
+    //    collapseNavMenu = !collapseNavMenu;
+    //}
+
+
+    void ToCourses () {
+
+        NavigationManager.NavigateTo("/allcourses");
+    }
+
+
+    void ToMyCourses()
     {
-        collapseNavMenu = !collapseNavMenu;
+
+        NavigationManager.NavigateTo("/mycourses");
+    }
+
+    void ToHomeTask()
+    {
+
+        NavigationManager.NavigateTo("/hometask");
+    }
+
+    void ToAbout()
+    {
+
+        NavigationManager.NavigateTo("/about");
+    }
+
+
+    void ToContact()
+    {
+
+        NavigationManager.NavigateTo("/contact");
+    }
+
+    void ToLogin()
+    {
+
+        NavigationManager.NavigateTo("/login");
+    }
+
+    void ToRegistration()
+    {
+
+        NavigationManager.NavigateTo("/registration");
     }
 }
 

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Full.Server.Data;
+using Full.Server.Repositories;
 using Full.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,11 +14,13 @@ namespace Full.Server.Controllers
 
         private readonly IMapper _mapper;
         private readonly AppDbContext _appDbContext;
+        private readonly ICourseRepository _courseRepository;
 
-        public CourseController(IMapper mapper, AppDbContext appDbContext)
+        public CourseController(IMapper mapper, AppDbContext appDbContext, ICourseRepository courseRepository)
         {
             _mapper = mapper;
             _appDbContext = appDbContext;
+            _courseRepository = courseRepository;
         }
 
         [HttpGet]

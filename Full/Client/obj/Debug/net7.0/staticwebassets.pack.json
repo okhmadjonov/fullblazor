@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\bann.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\courses\\all_courses_banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\courses\\all_courses_banner.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\courses\\course_five.png",
       "PackagePath": "staticwebassets\\assets\\img\\courses\\course_five.png"
     },
@@ -77,6 +81,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\teachers\\teacher_two.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCourses\\AllCoursesStyle.css",
+      "PackagePath": "staticwebassets\\css\\AllCourses\\AllCoursesStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCourses\\AllCoursesStyle.scss",
+      "PackagePath": "staticwebassets\\css\\AllCourses\\AllCoursesStyle.scss"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\FooterStyle\\FooterStyle.css",
       "PackagePath": "staticwebassets\\css\\FooterStyle\\FooterStyle.css"
     },
@@ -91,6 +103,14 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\IndexPageStyle\\ips.scss",
       "PackagePath": "staticwebassets\\css\\IndexPageStyle\\ips.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.css",
+      "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.scss",
+      "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.scss"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\app.css",
