@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\teachers\\teacher_two.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\teachers\\teachers_desc.png",
+      "PackagePath": "staticwebassets\\assets\\img\\teachers\\teachers_desc.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\About\\AboutStyle.css",
       "PackagePath": "staticwebassets\\css\\About\\AboutStyle.css"
     },

@@ -7,7 +7,6 @@
 @inject NavigationManager NavigationManager
 
 
-
 <div class="about">
     <!-----------------------------------About BANNER----------------------------->
     <div class="aboutBanner">
@@ -15,12 +14,80 @@
             О нашей компании
         </h3>
     </div>
-    <!--------------------------COURSES-............................----------------------->
+    <!--------------------------About Description----------------------->
     <div class="aboutContent">
         <div class="container">
             <div class="aboutContentUrlPath">
                 <a href="/"> Главная страница</a> &nbsp; » &nbsp; <a href="/about"> О нас</a>
             </div>
+            <div class="aboutDescription">
+                <div class="aboutDescImg">
+                    <img src="/assets/img/teachers/teachers_desc.png" alt="About Desc" />
+                </div>
+                <div class="aboutDescText">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor arcu libero. Nam aliquet et nisi id congue. Praesent accumsan scelerisque nulla. Mauris semper erat id lectus consequat elementum. Donec bibendum augue tincidunt nibh placerat, vel pellentesque dui fermentum.
+                        <br /> <br />
+                        Maecenas nec nibh vitae ligula viverra maximus. Phasellus commodo convallis neque, eu aliquet ante cursus id. Praesent suscipit sodales aliquet. Vestibulum tristique nulla sed purus interdum, ut dapibus odio finibus. Suspendisse potenti. Sed semper elit in arcu mollis euismod in eget magna. In libero diam, egestas rutrum odio quis, tempus faucibus sem. Aenean cursus luctus erat sit amet fermentum. Etiam eleifend augue mi, ac suscipit est convallis eu. Vivamus et felis a tortor viverra vestibulum a id enim.
+                    </p>
+                </div>
+            </div>
+            <!------------------------------TEACHERS------------------------->
+            <div class="teachers">
+                <h3 class="teacherTitle">Наши преподаватели</h3>
+
+                <div class="teachersItems">
+
+                    <!---------------  Teacher Card  ------------->
+                    @if (teachers.Count <= 0)
+                    {<p><em>Loading...</em></p>}
+                    else
+                    { @foreach (var teacher in teachers)
+                        {
+                            <div class="teacherCard">
+                                <div class="teacherImg">
+                                    <img src="@teacher.ImageUrl" alt="Teachers" />
+                                </div>
+                                <h3 class="teacherName">
+                                    @teacher.Name
+                                </h3>
+                                <p class="teacherType">
+                                    @teacher.Type
+                                </p>
+                            </div>
+                        }
+                }
+
+                </div>
+                <!----------------Load More--------->
+
+                <div class="loadMoreContainer">
+                    <div class="loadMore">
+                        <a href="/">Загрузить ещё</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-     </div>
+    </div>
 </div>
+
+
+
+
+@code {
+
+    private List<Teacher>? teachers = new List<Teacher>();
+
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+
+    {
+        var result = ApiServices.GetAllTeachers();
+        if (result is not null)
+
+        {
+            teachers = await result;
+        }
+
+    }
+}

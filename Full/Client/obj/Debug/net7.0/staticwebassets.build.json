@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zVNjcrGDE9+wyJt2J2p+vrmfB3FvqpHJNL1Yy1NiMYU=",
+  "Hash": "45CY8lWiuy3m00wupjwXNp7Vr9/3M1nZJ4a41ryfkrM=",
   "Source": "Full.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7376,6 +7376,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\teachers\\teacher_two.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\teachers\\teachers_desc.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/teachers/teachers_desc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\teachers\\teachers_desc.png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\About\\AboutStyle.css",

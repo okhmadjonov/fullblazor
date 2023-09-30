@@ -15,6 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<ICourseRepository, CourseService>();
+builder.Services.AddScoped<ITeacherRepository, TeacherService>();
 
 var app = builder.Build();
 

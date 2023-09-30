@@ -38,5 +38,104 @@
         font-family: "Public Sans", sans-serif;
         font-weight: 400;
         line-height: normal; }
+    .about .aboutContent .container .aboutDescription {
+      width: 100%;
+      height: 362px;
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .about .aboutContent .container .aboutDescription .aboutDescImg {
+        width: 49%;
+        height: 100%;
+        overflow: hidden; }
+        .about .aboutContent .container .aboutDescription .aboutDescImg img {
+          width: 100%;
+          height: 100%; }
+      .about .aboutContent .container .aboutDescription .aboutDescText {
+        width: 49%;
+        height: 100%; }
+        .about .aboutContent .container .aboutDescription .aboutDescText p {
+          font-size: 1.25em;
+          color: #000;
+          font-family: "Public Sans", sans-serif;
+          font-weight: 400;
+          line-height: 26px;
+          text-align: justify; }
+    .about .aboutContent .container .teachers {
+      width: 100%;
+      margin: 130px 0 130px 0; }
+      .about .aboutContent .container .teachers .teacherTitle {
+        width: 100%;
+        height: 40px;
+        font-size: 2em;
+        color: #000;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
+        line-height: normal; }
+      .about .aboutContent .container .teachers .teachersItems {
+        width: 100%;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 410px 410px 410px;
+        grid-row-gap: 60px;
+        justify-content: space-between; }
+        .about .aboutContent .container .teachers .teachersItems .teacherCard {
+          width: 100%;
+          height: 466px;
+          cursor: pointer;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
+          .about .aboutContent .container .teachers .teachersItems .teacherCard .teacherImg {
+            width: 100%;
+            height: 80%;
+            overflow: hidden; }
+            .about .aboutContent .container .teachers .teachersItems .teacherCard .teacherImg img {
+              width: 100%;
+              height: 100%; }
+          .about .aboutContent .container .teachers .teachersItems .teacherCard .teacherName {
+            width: 100%;
+            height: 30px;
+            font-family: "Public Sans", sans-serif;
+            font-size: 1.5em;
+            font-weight: 500;
+            color: #113ba1;
+            line-height: 29px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px; }
+          .about .aboutContent .container .teachers .teachersItems .teacherCard .teacherType {
+            width: 100%;
+            height: 25px;
+            font-family: "Public Sans", sans-serif;
+            font-size: 0.8em;
+            font-weight: 400;
+            color: #404040;
+            line-height: 17px;
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+            padding-left: 10px; }
+      .about .aboutContent .container .teachers .loadMoreContainer {
+        width: 100%;
+        height: 100%;
+        margin: 80px 0 130px 0;
+        color: #fff; }
+        .about .aboutContent .container .teachers .loadMoreContainer .loadMore {
+          cursor: pointer;
+          width: 320px;
+          height: 60px;
+          border-radius: 10px;
+          background-color: var(--accent-color);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto; }
+          .about .aboutContent .container .teachers .loadMoreContainer .loadMore a {
+            font-family: "Public Sans", sans-serif;
+            font-weight: 500;
+            font-size: 1em;
+            line-height: 19px;
+            color: white; }
 
 /*# sourceMappingURL=AboutStyle.css.map */
