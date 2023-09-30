@@ -1,0 +1,89 @@
+﻿@page "/allcoursesprices"
+@using Full.Shared;
+@using Full.Client.Service
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject ApiServices ApiServices
+@inject NavigationManager NavigationManager
+
+
+<div class="allCourses">
+    <!-----------------------------------ALL COURSES BANNER----------------------------->
+    <div class="allCoursesBanner">
+        <h3 class="allCoursesBannerTitle">
+            Цены всех курсов
+        </h3>
+    </div>
+    <!-----------------------------------ALL COURSES BANNER END---------------------------->
+    <!--------------------------COURSES-............................----------------------->
+    <div class="allCoursesContent">
+        <div class="container">
+            <div class="allCoursesContentUrlPath">
+                <a href="/"> Главная страница</a> &nbsp; » &nbsp; <a href="/allcoursesprices"> Цены всех курсов</a>
+            </div>
+
+            <div class="courses">
+                <div class="containerCourse">
+                    <div class="coursesWrapper">
+                        @*<h3 class="coursesTitle">Все курсы</h3>*@
+                        <div class="coursesContent">
+                            <div class="courseItems">
+                                <!--?---------Course Items------------>
+                                @if (courses.Count <= 0)
+                                {<p><em>Loading...</em></p>}
+                                else
+                                { @foreach (var course in courses)
+                                    {
+                                        <div class="courseItem">
+                                            <div class="courseImg">
+                                                <img src="@course.ImageUrl" alt="Course" />
+                                            </div>
+                                            <div class="courseTitle">
+                                                <h3>@course.Title</h3>
+                                            </div>
+                                            <div class="courseDescription">
+                                                <p>@course.Description</p>
+                                            </div>
+                                            <div class="coursePrice">
+                                                <p>Цена:&nbsp; @course.Price &nbsp; сум </p>
+                                            </div>
+                                        </div>
+                                    }
+                            }
+                            </div><!--?---------Course Items END------------>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------Load More--------->
+        <div class="container">
+            <div class="loadMoreContainer">
+                <div class="loadMore">
+                    <a href="/">Загрузить ещё</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@code {
+    private List<Course>? courses = new List<Course>();
+
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+
+    {
+        var result = ApiServices.GetAllCourses();
+        if (result is not null)
+
+        {
+            courses = await result;
+            Console.Write("Your courses are : " + courses);
+        }
+
+    }
+}
+

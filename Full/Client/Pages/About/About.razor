@@ -1,0 +1,26 @@
+﻿@page "/about"
+@using Full.Shared;
+@using Full.Client.Service
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject ApiServices ApiServices
+@inject NavigationManager NavigationManager
+
+
+
+<div class="about">
+    <!-----------------------------------About BANNER----------------------------->
+    <div class="aboutBanner">
+        <h3 class="aboutBannerTitle">
+            О нашей компании
+        </h3>
+    </div>
+    <!--------------------------COURSES-............................----------------------->
+    <div class="aboutContent">
+        <div class="container">
+            <div class="aboutContentUrlPath">
+                <a href="/"> Главная страница</a> &nbsp; » &nbsp; <a href="/about"> О нас</a>
+            </div>
+        </div>
+     </div>
+</div>

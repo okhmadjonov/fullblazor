@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\Full.Client.styles.css"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\about_banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about_banner.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\bann.png",
       "PackagePath": "staticwebassets\\assets\\img\\bann.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\courses\\all_courses_banner.png",
       "PackagePath": "staticwebassets\\assets\\img\\courses\\all_courses_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\courses\\allcourses.png",
+      "PackagePath": "staticwebassets\\assets\\img\\courses\\allcourses.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\courses\\course_five.png",
@@ -57,6 +65,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\mycourses\\mycourses_banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\mycourses\\mycourses_banner.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\teachers\\teacher_five.png",
       "PackagePath": "staticwebassets\\assets\\img\\teachers\\teacher_five.png"
     },
@@ -81,8 +93,36 @@
       "PackagePath": "staticwebassets\\assets\\img\\teachers\\teacher_two.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\About\\AboutStyle.css",
+      "PackagePath": "staticwebassets\\css\\About\\AboutStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\About\\AboutStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\About\\AboutStyle.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\About\\AboutStyle.scss",
+      "PackagePath": "staticwebassets\\css\\About\\AboutStyle.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCoursesPricesStyle\\AllCoursesPricesStyle.css",
+      "PackagePath": "staticwebassets\\css\\AllCoursesPricesStyle\\AllCoursesPricesStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCoursesPricesStyle\\AllCoursesPricesStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\AllCoursesPricesStyle\\AllCoursesPricesStyle.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCoursesPricesStyle\\AllCoursesPricesStyle.scss",
+      "PackagePath": "staticwebassets\\css\\AllCoursesPricesStyle\\AllCoursesPricesStyle.scss"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCourses\\AllCoursesStyle.css",
       "PackagePath": "staticwebassets\\css\\AllCourses\\AllCoursesStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCourses\\AllCoursesStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\AllCourses\\AllCoursesStyle.css.map"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCourses\\AllCoursesStyle.scss",
@@ -107,6 +147,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.css",
       "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.css.map"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.scss",

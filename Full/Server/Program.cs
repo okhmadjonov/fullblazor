@@ -1,4 +1,6 @@
 using Full.Server.Data;
+using Full.Server.Repositories;
+using Full.Server.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+builder.Services.AddScoped<ICourseRepository, CourseService>();
 
 var app = builder.Build();
 

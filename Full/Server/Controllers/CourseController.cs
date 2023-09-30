@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using Full.Server.Data;
 using Full.Server.Repositories;
-using Full.Shared;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Full.Server.Controllers
 {
@@ -16,17 +14,16 @@ namespace Full.Server.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly ICourseRepository _courseRepository;
 
-        public CourseController(IMapper mapper, AppDbContext appDbContext, ICourseRepository courseRepository)
+        public CourseController(ICourseRepository courseRepository)
         {
-            _mapper = mapper;
-            _appDbContext = appDbContext;
+
             _courseRepository = courseRepository;
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Course>>> GetAllCourses()
+        public async Task<IActionResult> GetAll()
         {
-            var courses = await _appDbContext.Course.ToListAsync();
+            var courses = await _courseRepository.GetAll();
             return Ok(courses);
         }
     }
