@@ -1,0 +1,83 @@
+﻿@page "/contact"
+@using Full.Shared;
+@using Full.Client.Service
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject ApiServices ApiServices
+@inject NavigationManager NavigationManager
+
+
+<div class="contact">
+    <!-----------------------------------About BANNER----------------------------->
+    <div class="contactBanner">
+        <h3 class="contactBannerTitle">
+            Контактная информация
+        </h3>
+    </div>
+    <!--------------------------About Description----------------------->
+    <div class="contactContent">
+        <div class="container">
+            <div class="contactContentUrlPath">
+                <a href="/"> Главная страница</a> &nbsp; » &nbsp; <a href="/contact"> Контакты</a>
+            </div>
+
+            <div class="contactContentWrapper">
+               
+                    <h3 class="contactContentWrapperTitle">
+                        Оставьте заявку, мы свяжемся и дадим подробное информацие о наших курсах
+                    </h3>
+                
+                <div class="contactContentWrapperMapContactForm">
+                    <div class="contactFormItem">
+                        <img src="/assets/img/locationMap.png" alt="Alternate Text" />
+                    </div>
+                    <div class="contactFormItem">
+                        <div class="iconPhoneNumber">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>+998 98 369 90 69</p>
+                        </div>
+                        <div class="iconEmail">
+                            <i class="far fa-envelope"></i>
+                            <p>info@uranusinvest.com</p>
+                        </div>
+                        <div class="iconLocation">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>location</p>
+                        </div>
+                        <div class="iconSocialMedia">
+                            <div class="mediaItem">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="mediaItem">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="mediaItem">
+                                <i class="fab fa-telegram-plane"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactFormItem">
+                        <form action="/" method="post">
+                            <div class="formItemWrapper">
+                                <input type="text" name="name" value="" placeholder="Ваше имя" />
+                            </div>
+                            <div class="formItemWrapper">
+                                <input type="number" name="number" value="" placeholder="Ваш номер телефона" />
+                            </div>
+                            <div class="formItemWrapper">
+                                <input type="datetime" name="datetime" value="" placeholder="Когда вам позвонить" />
+                            </div>
+                          
+                                <a class="formItemWrapperContact" href="#">Заказать бесплатный звонок</a>
+                            
+                         
+                                <p class="formSubmitText">Отправляя заявку, вы соглашаетесь на обработку ваших данных</p>
+                               
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+  </div>
+</div>

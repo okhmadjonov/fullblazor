@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\bann.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\contact_banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact_banner.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\courses\\all_courses_banner.png",
       "PackagePath": "staticwebassets\\assets\\img\\courses\\all_courses_banner.png"
     },
@@ -131,6 +135,18 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\AllCourses\\AllCoursesStyle.scss",
       "PackagePath": "staticwebassets\\css\\AllCourses\\AllCoursesStyle.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\ContactStyle\\ContactStyle.css",
+      "PackagePath": "staticwebassets\\css\\ContactStyle\\ContactStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\ContactStyle\\ContactStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\ContactStyle\\ContactStyle.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\ContactStyle\\ContactStyle.scss",
+      "PackagePath": "staticwebassets\\css\\ContactStyle\\ContactStyle.scss"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\FooterStyle\\FooterStyle.css",
