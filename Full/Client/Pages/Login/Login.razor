@@ -1,0 +1,93 @@
+﻿@page "/login"
+@using Full.Shared;
+@using Full.Client.Service
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject ApiServices ApiServices
+@inject NavigationManager NavigationManager
+
+
+    <PageTitle>Login</PageTitle>
+
+<div class="login">
+    <div class="loginLogo">
+        <a href="/">
+            <img src="/assets/img/logo.png" alt="logo" />
+        </a>
+    </div>
+    <div class="loginContent">
+
+        <div class="loginBody">
+            <div class="loginTopPanel">
+                <a class="registrationLink" @onclick="SignUp">Зарегистрироваться</a>
+                <a class="loginLink" @onclick="LogIn">Войти</a>
+            </div>
+
+            <h3 class="loginAccountTitle">Войти в аккаунт</h3>
+            <div class="loginForm">
+                @*<form>*@
+                    <div class="formInput">
+                        <input type="email" name="email" autocomplete="off" value="" placeholder="Email" />
+                    </div>
+                    <div class="formInput">
+                        <input type="password" name="password" value="" placeholder="Пароль" />
+                        <a class="passwordEyeLink">  <img class="passwordEye" src="/assets/img/passwordEye.png" alt="PasswordEye" /></a>
+                    </div>
+                    <p class="termsAndPolicy">
+                        By clicking Sign In, you agree to our
+                        <a href="/" class="termsOfUse" style="color:#113BA1;">Terms of Use</a>
+                        and our  <a href="/" class="privacyPolicy" style="color:#113BA1;">Privacy Policy.</a>
+                    </p>
+
+                    <button type="submit" class="loginFormLogin">Войти</button>
+                    <a href="/" class="forgotpassword">Забыли пароль?</a>
+                @*</form>*@
+                <div class="orLoginWithGoogleOrfacebook">
+                    <img src="/assets/img/or.png" alt="Login by Google or Facebook" />
+                </div>
+                <div class="googleOrFacebook">
+                    <a href="/google" class="byGoogle">
+                        <img src="/assets/img/google.png" alt="Google Logo" />
+                        <p>Войти с Google</p>
+                    </a>
+                    <a href="/facebook" class="byFacebook">
+                        <img src="/assets/img/facebook.png" alt="Facebook Logo" />
+                        <p>Войти с Facebook</p>
+                    </a>
+                </div>
+
+                <div class="NoAccount">
+                    <p> Нет аккаунта? &nbsp; <a style="color:#113BA1;" href="/registration">Зарегистрироваться</a></p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+@code {
+
+
+
+    void SignUp()
+    {
+
+        NavigationManager.NavigateTo("/registration");
+    }
+    void LogIn()
+    {
+
+        NavigationManager.NavigateTo("/login");
+
+    }
+
+
+}

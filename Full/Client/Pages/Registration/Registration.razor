@@ -1,0 +1,115 @@
+﻿@page "/registration"
+@using System.Text.Json
+@using Full.Shared;
+@using Full.Client.DTO;
+@using Full.Client.Service
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@inject ApiServices ApiServices
+@inject NavigationManager NavigationManager
+
+
+
+<PageTitle>Registration</PageTitle>
+
+    <div class="registration">
+        <div class="loginLogo">
+            <a href="/">
+                <img src="/assets/img/logo.png" alt="logo" />
+            </a>
+        </div>
+        <div class="loginContent">
+
+
+            <div class="loginBody">
+                <div class="loginTopPanel">
+                    <a class="registrationLink" @onclick="SignUp">Зарегистрироваться</a>
+                    <a class="loginLink" @onclick="LogIn">Войти</a>
+                </div>
+
+                <h3 class="loginAccountTitle">Создайте свой аккаунт</h3>
+                <div class="loginForm">
+                    @*<form>*@
+                        <div class="formInput">
+                            <input type="text" name="name" autocomplete="off" placeholder="Имя и Фамилия" @bind="userDTO.FullName" />
+                        </div>
+                        <div class="formInput">
+                            <input type="email" name="email" autocomplete="off"  placeholder="Email" @bind="userDTO.Email" />
+                        </div>
+                        <div class="formInput">
+                            <input type="password" name="password"  placeholder="Пароль" @bind="userDTO.Password" />
+                            <a class="passwordEyeLink">  <img class="passwordEye" src="/assets/img/passwordEye.png" alt="PasswordEye" /></a>
+                        </div>
+                        <p class="termsAndPolicy">
+                            By clicking Sign In, you agree to our
+                            <a href="/" class="termsOfUse" style="color:#113BA1;">Terms of Use</a>
+                            and our  <a href="/" class="privacyPolicy" style="color:#113BA1;">Privacy Policy.</a>
+                        </p>
+
+                        <a class="loginFormRegister" @onclick="OnValidSubmit">Зарегистрироваться</a>
+                        @*<a href="/" class="forgotpassword">Забыли пароль?</a>*@
+                    @*</form>*@
+                    <div class="orLoginWithGoogleOrfacebook">
+                        <img src="/assets/img/or.png" alt="Login by Google or Facebook" />
+                    </div>
+                    <div class="googleOrFacebook">
+                        <a href="/google" class="byGoogle">
+                            <img src="/assets/img/google.png" alt="Google Logo" />
+                            <p>Зарегистрироваться <br /> с Google</p>
+                        </a>
+                        <a href="/facebook" class="byFacebook">
+                            <img src="/assets/img/facebook.png" alt="Facebook Logo" />
+                            <p>Зарегистрироваться <br /> с Facebook</p>
+                        </a>
+                    </div>
+
+                    <div class="NoAccount">
+                        <p> Есть аккаунт? &nbsp; <a style="color:#113BA1;" @onclick="LogIn">Войти</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+@code {
+
+    private UserDTO userDTO = new UserDTO();
+
+    void SignUp() {
+
+        NavigationManager.NavigateTo("/registration");
+    }
+    void LogIn() {
+
+        NavigationManager.NavigateTo("/login");
+    }
+
+    // Registration
+
+    async System.Threading.Tasks.Task OnValidSubmit()
+    {
+        var response = await ApiServices.Register(userDTO);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+
+            using (JsonDocument doc = JsonDocument.Parse(json))
+            {
+                // Process the JSON document if needed
+            }
+
+            NavigationManager.NavigateTo("/login");
+        }
+        else
+        {
+            // Handle the case when the API call was not successful
+            // You can log the error or show a message to the user
+            Console.Write("Yahoooooo !!!");
+        }
+    }
+}

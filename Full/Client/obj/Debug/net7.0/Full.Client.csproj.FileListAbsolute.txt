@@ -614,12 +614,6 @@ C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\Full.Client.Assembly
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\Full.Client.AssemblyInfo.cs
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\Full.Client.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\Full.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\IYqFo8VG.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\efOpQGt2.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\UDvc28Lk.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\6qLzrUPL.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\G7YBhptK.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\YMvJRO0z.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\zglm2fjN.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\MLUQTKgZ.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\0++cj0X5.gz
@@ -634,8 +628,6 @@ C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\wS4w+H1w.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\InNcf89Q.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\w8ttro57.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\b5uvWsQO.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\UmJV4CEh.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\1jvhTd7v.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\GNc+blpp.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\nNjzSu2v.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\yqKj6gQx.gz
@@ -816,7 +808,6 @@ C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\upGik3Fh.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\7+gDnJbz.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\ce4ClZs5.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\nLTmvt6P.gz
-C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\Z2EZQPFY.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\blazor.boot.json
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\staticwebassets\msbuild.Full.Client.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\staticwebassets\msbuild.build.Full.Client.props
@@ -842,3 +833,12 @@ C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\pc\Desktop\fulls\Full\Full\Client\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\p6J+OO1u.gz
 C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\UdQJi69+.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\uAGarO++.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\95fTKyo0.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\fpRNqgbJ.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\QyQu+qMS.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\ksCxgwER.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\dIq7KpDw.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\iBySR2iF.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\NMGcAmUt.gz
+C:\Users\pc\Desktop\fulls\Full\Full\Client\obj\Debug\net7.0\build-gz\Q2+HgVa5.gz

@@ -5,7 +5,7 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\Z2EZQPFY.gz",
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\Q2+HgVa5.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
@@ -57,12 +57,24 @@
       "PackagePath": "staticwebassets\\assets\\img\\courses\\course_two.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\facebook.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\foot_logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\foot_logo.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\google.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\home_banner.png",
       "PackagePath": "staticwebassets\\assets\\img\\home_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\locationMap.png",
+      "PackagePath": "staticwebassets\\assets\\img\\locationMap.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\logo.png",
@@ -71,6 +83,14 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\mycourses\\mycourses_banner.png",
       "PackagePath": "staticwebassets\\assets\\img\\mycourses\\mycourses_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\or.png",
+      "PackagePath": "staticwebassets\\assets\\img\\or.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\passwordEye.png",
+      "PackagePath": "staticwebassets\\assets\\img\\passwordEye.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\teachers\\teacher_five.png",
@@ -165,6 +185,18 @@
       "PackagePath": "staticwebassets\\css\\IndexPageStyle\\ips.scss"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\LoginStyle\\LoginStyle.css",
+      "PackagePath": "staticwebassets\\css\\LoginStyle\\LoginStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\LoginStyle\\LoginStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\LoginStyle\\LoginStyle.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\LoginStyle\\LoginStyle.scss",
+      "PackagePath": "staticwebassets\\css\\LoginStyle\\LoginStyle.scss"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.css",
       "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.css"
     },
@@ -175,6 +207,18 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.scss",
       "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css",
+      "PackagePath": "staticwebassets\\css\\RegistrationStyle\\RegistrationStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\RegistrationStyle\\RegistrationStyle.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.scss",
+      "PackagePath": "staticwebassets\\css\\RegistrationStyle\\RegistrationStyle.scss"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\app.css",

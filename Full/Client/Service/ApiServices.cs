@@ -1,4 +1,5 @@
-﻿using Full.Shared;
+﻿using Full.Client.DTO;
+using Full.Shared;
 using System.Net.Http.Json;
 
 namespace Full.Client.Service
@@ -20,6 +21,15 @@ namespace Full.Client.Service
         {
             var teachers = await _httpClient.GetFromJsonAsync<List<Teacher>>("api/Teacher");
             return teachers;
+        }
+
+
+
+        public async Task<HttpResponseMessage> Register(UserDTO userDTO)
+        {
+
+            var response = await _httpClient.PostAsJsonAsync("/api/User", userDTO);
+            return response;
         }
     }
 }

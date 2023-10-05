@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WxPcTB0g0ZpwBHu3e01lhMlTuiKKPvCAZCh1u3UDRUQ=",
+  "Hash": "PWUwWpqlQgCWKTjdW0tyISW+cTPYkhbRBA5wPReWJTE=",
   "Source": "Full.Server",
   "BasePath": "_content/Full.Server",
   "Mode": "Default",
@@ -94,7 +94,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.10\\build\\net7.0\\blazor.webassembly.js"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.11\\build\\net7.0\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.7.0.10.h700ttfoy5.js",
@@ -298,7 +298,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -315,7 +315,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.11\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -332,7 +332,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.11\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -349,7 +349,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.11\\lib\\net7.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -366,7 +366,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.11\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
@@ -383,7 +383,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.11\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -655,7 +655,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.jsinterop\\7.0.10\\lib\\net7.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.jsinterop\\7.0.11\\lib\\net7.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -672,7 +672,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.10\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.11\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -3667,23 +3667,6 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\netstandard.dll"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\1jvhTd7v.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
-    },
-    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\1ZtlV+Pf.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -3922,23 +3905,6 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\6qLzrUPL.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\7+gDnJbz.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -4039,6 +4005,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\95fTKyo0.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\9gemnaI3.gz",
@@ -4381,6 +4364,23 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.dll"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\dIq7KpDw.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\dkF3CDGa.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -4430,23 +4430,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Http.Json.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\efOpQGt2.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\eJa+nHU0.gz",
@@ -4534,6 +4517,23 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.DataAnnotations.dll"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\fpRNqgbJ.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\fS71He8Q.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -4600,23 +4600,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Windows.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\G7YBhptK.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\GehwQazJ.gz",
@@ -4840,6 +4823,23 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.dll"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\iBySR2iF.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\IJSMMt8W.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -4889,23 +4889,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.CoreLib.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\IYqFo8VG.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\j3L0cN+f.gz",
@@ -5212,6 +5195,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.NonGeneric.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\ksCxgwER.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\kt+5VD2B.gz",
@@ -5605,6 +5605,23 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Full.Client.pdb"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\NMGcAmUt.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\nNjzSu2v.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -5928,6 +5945,23 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.WebClient.dll"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\Q2+HgVa5.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\q8PTNGaH.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -5994,6 +6028,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Tools.dll"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\QyQu+qMS.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\r1bgMCS6.gz",
@@ -6251,6 +6302,23 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.Linq.dll"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\uAGarO++.gz",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\uC6GM5to.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -6300,40 +6368,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\UDvc28Lk.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\UmJV4CEh.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\uoutyzJw.gz",
@@ -6812,23 +6846,6 @@
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.dll"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\YMvJRO0z.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\yPiE2Epg.gz",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -6912,23 +6929,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Emit.dll"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\Z2EZQPFY.gz",
-      "SourceId": "Full.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\Debug\\net7.0\\build-gz\\zcgb+uRd.gz",
@@ -7220,6 +7220,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\courses\\course_two.png"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\facebook.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/facebook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\facebook.png"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\foot_logo.png",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -7237,6 +7254,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\foot_logo.png"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\google.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/google.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\google.png"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\home_banner.png",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -7252,6 +7286,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\home_banner.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\locationMap.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/locationMap.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\locationMap.png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\logo.png",
@@ -7286,6 +7337,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\mycourses\\mycourses_banner.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\or.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/or.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\or.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\passwordEye.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/passwordEye.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\passwordEye.png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\teachers\\teacher_five.png",
@@ -7730,6 +7815,57 @@
       "OriginalItemSpec": "wwwroot\\css\\IndexPageStyle\\ips.scss"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\LoginStyle\\LoginStyle.css",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/LoginStyle/LoginStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginStyle\\LoginStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\LoginStyle\\LoginStyle.css.map",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/LoginStyle/LoginStyle.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginStyle\\LoginStyle.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\LoginStyle\\LoginStyle.scss",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/LoginStyle/LoginStyle.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginStyle\\LoginStyle.scss"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.css",
       "SourceId": "Full.Client",
       "SourceType": "Project",
@@ -7779,6 +7915,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.scss"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/RegistrationStyle/RegistrationStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css.map",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/RegistrationStyle/RegistrationStyle.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.scss",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/RegistrationStyle/RegistrationStyle.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegistrationStyle\\RegistrationStyle.scss"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\favicon.png",

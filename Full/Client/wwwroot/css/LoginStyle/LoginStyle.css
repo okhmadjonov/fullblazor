@@ -1,0 +1,159 @@
+.login {
+  width: 620px;
+  height: auto;
+  margin: 50px auto; }
+  .login .loginLogo {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .login .loginContent {
+    width: 100%;
+    height: auto;
+    margin-top: 74px;
+    border: 1px solid #dfdfdf; }
+    .login .loginContent .loginBody {
+      width: 100%;
+      height: 100%; }
+      .login .loginContent .loginBody .loginTopPanel {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .login .loginContent .loginBody .loginTopPanel a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: "Public Sans", sans-serif;
+          font-weight: 400;
+          color: #404040;
+          font-size: 1.25em;
+          line-height: 22px;
+          cursor: pointer; }
+        .login .loginContent .loginBody .loginTopPanel .registrationLink {
+          width: 50%;
+          height: 100%;
+          border-bottom: 1px solid #dfdfdf;
+          border-right: 1px solid #dfdfdf; }
+        .login .loginContent .loginBody .loginTopPanel .loginLink {
+          width: 50%;
+          height: 100%;
+          font-weight: 700; }
+      .login .loginContent .loginBody .loginAccountTitle {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 700;
+        line-height: normal;
+        font-size: 1.75em; }
+      .login .loginContent .loginBody .loginForm {
+        width: 460px;
+        height: auto;
+        margin: 0 auto; }
+        .login .loginContent .loginBody .loginForm .formInput {
+          width: 100%;
+          height: 54px;
+          margin-bottom: 20px;
+          position: relative;
+          z-index: 1; }
+          .login .loginContent .loginBody .loginForm .formInput input {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            border: 1px solid #dfdfdf;
+            padding-left: 30px;
+            font-size: 1em;
+            outline: none !important; }
+            .login .loginContent .loginBody .loginForm .formInput input ::placeholder {
+              font-size: 1em; }
+          .login .loginContent .loginBody .loginForm .formInput .passwordEyeLink {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            z-index: 2;
+            right: 20px;
+            bottom: 15px; }
+        .login .loginContent .loginBody .loginForm .termsAndPolicy {
+          width: 100%;
+          height: 42px;
+          color: #000;
+          font-family: "Public Sans", sans-serif;
+          font-weight: 400;
+          line-height: 21px;
+          font-size: 1em; }
+        .login .loginContent .loginBody .loginForm .loginFormLogin {
+          width: 200px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          border-radius: 10px;
+          background-color: #35A4D9;
+          color: #fff;
+          font-family: "Public Sans", sans-serif;
+          font-size: 1em;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 40px auto;
+          border: none;
+          cursor: pointer;
+          justify-content: center; }
+        .login .loginContent .loginBody .loginForm .forgotpassword {
+          width: 146px;
+          height: 22px;
+          display: flex;
+          align-items: center;
+          color: #113BA1;
+          font-family: "Public Sans", sans-serif;
+          font-size: 1.125em;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 20px auto; }
+        .login .loginContent .loginBody .loginForm .orLoginWithGoogleOrfacebook {
+          margin: 60px 0 60px 0; }
+        .login .loginContent .loginBody .loginForm .googleOrFacebook {
+          width: 100%;
+          height: 50px;
+          margin: 38px 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          .login .loginContent .loginBody .loginForm .googleOrFacebook a {
+            width: 220px;
+            height: 100%;
+            border-radius: 10px;
+            background: #FFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 10px 40px 0px rgba(17, 59, 161, 0.1);
+            color: #000;
+            text-align: center;
+            font-family: "Public Sans", sans-serif;
+            font-size: 1em;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            gap: 10px; }
+        .login .loginContent .loginBody .loginForm .NoAccount {
+          width: 100%;
+          height: 25px;
+          margin: 80px 0 60px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: "Public Sans", sans-serif;
+          font-weight: 400;
+          font-size: 1em;
+          color: #000;
+          line-height: 20px; }
+
+/*# sourceMappingURL=LoginStyle.css.map */

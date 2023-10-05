@@ -9,6 +9,7 @@ namespace Full.Server.AutomapperProfile
         public AutomapperProfile()
         {
             CreateMap<Course, CourseDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
         }
     }
 }
