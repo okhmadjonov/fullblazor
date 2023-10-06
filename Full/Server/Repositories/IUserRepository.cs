@@ -7,6 +7,7 @@ namespace Full.Server.Repositories
     {
 
         Task<User> AddUserAsync(UserDTO userDTO);
+        Task<User> Login(LoginDTO loginDTO);
 
     }
 }

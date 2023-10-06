@@ -3,6 +3,7 @@ using Full.Server.Data;
 using Full.Server.DTO;
 using Full.Server.Repositories;
 using Full.Shared;
+using Microsoft.EntityFrameworkCore;
 
 namespace Full.Server.Services
 {
@@ -29,6 +30,12 @@ namespace Full.Server.Services
 
             _context.User.Add(user);
             await _context.SaveChangesAsync();
+            return user;
+        }
+
+        public Task<User> Login(LoginDTO loginDTO)
+        {
+            var user = _context.User.FirstOrDefaultAsync(u => u.Email == loginDTO.Email && u.Password == loginDTO.Password);
             return user;
         }
     }

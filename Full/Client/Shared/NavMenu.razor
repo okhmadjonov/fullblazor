@@ -1,6 +1,6 @@
 ﻿@using Full.Client.Service
 @inject NavigationManager NavigationManager
-
+@inject LocalStorageService LocalStorageService
 
 <header class="header">
     <div class="container">
@@ -15,25 +15,42 @@
             <a class="menu_item" @onclick="ToContact">Контакты</a>
         </div>
         <div class="lignin_signup">
-            <a @onclick="ToLogin" class="signin">Войти</a>
-            <a @onclick="ToRegistration" class="signup">Регистрация</a>
+
+            @if (!string.IsNullOrEmpty(UserEmail))
+            {
+                <a class="signin">@UserEmail</a>
+                <a @onclick="LogOut" class="logout"> &nbsp;Logout</a>
+            }
+            else
+            {
+                <a @onclick="ToLogin" class="signin">Войти</a>
+                <a @onclick="ToRegistration" class="signup">Регистрация</a>
+
+
+
+            }
+
 
         </div>
     </div>
 </header>
 
 @code {
-    //private bool collapseNavMenu = true;
-
-    //private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    //private void ToggleNavMenu()
-    //{
-    //    collapseNavMenu = !collapseNavMenu;
-    //}
 
 
-    void ToCourses () {
+    private string UserEmail = String.Empty;
+    protected override async System.Threading.Tasks.Task OnInitializedAsync()
+    {
+
+        var email = await LocalStorageService.GetEmailFromLocalStorage();
+        UserEmail = email;
+    }
+
+
+
+
+    void ToCourses()
+    {
 
         NavigationManager.NavigateTo("/allcourses");
     }
@@ -74,6 +91,13 @@
     {
 
         NavigationManager.NavigateTo("/registration");
+    }
+
+
+    void LogOut()
+    {
+        LocalStorageService.LogOut();
+        NavigationManager.NavigateTo("/");
     }
 }
 

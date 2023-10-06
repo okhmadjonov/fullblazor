@@ -1,4 +1,6 @@
 ﻿@page "/login"
+@using System.Text.Json
+@using Full.Client.DTO
 @using Full.Shared;
 @using Full.Client.Service
 @inject HttpClient Http
@@ -7,7 +9,7 @@
 @inject NavigationManager NavigationManager
 
 
-    <PageTitle>Login</PageTitle>
+<PageTitle>Login</PageTitle>
 
 <div class="login">
     <div class="loginLogo">
@@ -27,10 +29,10 @@
             <div class="loginForm">
                 @*<form>*@
                     <div class="formInput">
-                        <input type="email" name="email" autocomplete="off" value="" placeholder="Email" />
+                        <input type="email" name="email" autocomplete="off" placeholder="Email" @bind="loginDTO.Email" />
                     </div>
                     <div class="formInput">
-                        <input type="password" name="password" value="" placeholder="Пароль" />
+                        <input type="password" name="password" placeholder="Пароль" @bind="loginDTO.Password" />
                         <a class="passwordEyeLink">  <img class="passwordEye" src="/assets/img/passwordEye.png" alt="PasswordEye" /></a>
                     </div>
                     <p class="termsAndPolicy">
@@ -39,7 +41,7 @@
                         and our  <a href="/" class="privacyPolicy" style="color:#113BA1;">Privacy Policy.</a>
                     </p>
 
-                    <button type="submit" class="loginFormLogin">Войти</button>
+                    <a @onclick="OnValidSubmit" class="loginFormLogin">Войти</a>
                     <a href="/" class="forgotpassword">Забыли пароль?</a>
                 @*</form>*@
                 <div class="orLoginWithGoogleOrfacebook">
@@ -75,6 +77,7 @@
 
 @code {
 
+    private LoginDTO loginDTO = new LoginDTO();
 
 
     void SignUp()
@@ -89,5 +92,39 @@
 
     }
 
+
+
+    async System.Threading.Tasks.Task OnValidSubmit()
+    {
+        var response = await ApiServices.Login(loginDTO);
+
+        Console.WriteLine("Loged is: " + response);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+
+            using (JsonDocument doc = JsonDocument.Parse(json))
+            {
+                JsonElement root = doc.RootElement;
+
+                if (root.TryGetProperty("email", out JsonElement emailElement))
+                {
+                    string email = emailElement.GetString()!;
+
+                    Console.WriteLine(email);
+
+                    await SaveToLocalStorage("email", email);
+                }
+            }
+
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private async System.Threading.Tasks.Task SaveToLocalStorage(string key, string value)
+    {
+        await JsRuntime.InvokeVoidAsync("localStorage.setItem", key, value);
+    }
 
 }

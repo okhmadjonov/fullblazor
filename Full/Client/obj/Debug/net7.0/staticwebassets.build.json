@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7v334K9j8m/o4mjKsh3NeNpORHC5aO65WZv8+jtE0AQ=",
+  "Hash": "kFgASYHG9z6liizZ4j7zsDrxxGz5F3keSyzXprAU5lo=",
   "Source": "Full.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7376,6 +7376,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\passwordEye.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\recBan.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/recBan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\recBan.png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\teachers\\teacher_five.png",

@@ -94,22 +94,32 @@
     {
         var response = await ApiServices.Register(userDTO);
 
+        Console.WriteLine("Registered is: " + response);
+
         if (response.IsSuccessStatusCode)
         {
             var json = await response.Content.ReadAsStringAsync();
 
             using (JsonDocument doc = JsonDocument.Parse(json))
             {
-                // Process the JSON document if needed
+                JsonElement root = doc.RootElement;
+
+                if (root.TryGetProperty("email", out JsonElement emailElement))
+                {
+                    string email = emailElement.GetString()!;
+
+                    Console.WriteLine(email);
+
+                    await SaveToLocalStorage("email", email);
+                }
             }
 
             NavigationManager.NavigateTo("/login");
         }
-        else
-        {
-            // Handle the case when the API call was not successful
-            // You can log the error or show a message to the user
-            Console.Write("Yahoooooo !!!");
-        }
+    }
+
+    private async System.Threading.Tasks.Task SaveToLocalStorage(string key, string value)
+    {
+        await JsRuntime.InvokeVoidAsync("localStorage.setItem", key, value);
     }
 }
