@@ -27,13 +27,13 @@ namespace Full.Client.Service
 
         public async Task<HttpResponseMessage> Login(LoginDTO loginDTO)
         {
-            var response = await _httpClient.PostAsJsonAsync("/api/User/login", loginDTO);
+            var response = await _httpClient.PostAsJsonAsync("/api/Account/login", loginDTO);
             return response;
         }
 
         public async Task<HttpResponseMessage> Register(UserDTO userDTO)
         {
-            var response = await _httpClient.PostAsJsonAsync("/api/User", userDTO);
+            var response = await _httpClient.PostAsJsonAsync("/api/Account", userDTO);
             return response;
         }
     }

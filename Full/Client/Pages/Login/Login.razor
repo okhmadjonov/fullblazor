@@ -18,7 +18,7 @@
         </a>
     </div>
     <div class="loginContent">
-
+     
         <div class="loginBody">
             <div class="loginTopPanel">
                 <a class="registrationLink" @onclick="SignUp">Зарегистрироваться</a>
@@ -27,7 +27,7 @@
 
             <h3 class="loginAccountTitle">Войти в аккаунт</h3>
             <div class="loginForm">
-                @*<form>*@
+                <form>
                     <div class="formInput">
                         <input type="email" name="email" autocomplete="off" placeholder="Email" @bind="loginDTO.Email" />
                     </div>
@@ -43,7 +43,7 @@
 
                     <a @onclick="OnValidSubmit" class="loginFormLogin">Войти</a>
                     <a href="/" class="forgotpassword">Забыли пароль?</a>
-                @*</form>*@
+                </form>
                 <div class="orLoginWithGoogleOrfacebook">
                     <img src="/assets/img/or.png" alt="Login by Google or Facebook" />
                 </div>

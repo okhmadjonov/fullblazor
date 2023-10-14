@@ -8,8 +8,8 @@ namespace Full.Server.AutomapperProfile
     {
         public AutomapperProfile()
         {
-            CreateMap<Course, CourseDTO>().ReverseMap();
-            CreateMap<User, UserDTO>().ReverseMap();
+            CreateMap<Course, CourseDTO>().ReverseMap().ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<User, UserDTO>().ReverseMap().ForMember(dest => dest.Id, opt => opt.Ignore());
         }
     }
 }

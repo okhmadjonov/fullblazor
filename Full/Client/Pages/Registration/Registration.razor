@@ -29,9 +29,9 @@
 
                 <h3 class="loginAccountTitle">Создайте свой аккаунт</h3>
                 <div class="loginForm">
-                    @*<form>*@
+                    <form>
                         <div class="formInput">
-                            <input type="text" name="name" autocomplete="off" placeholder="Имя и Фамилия" @bind="userDTO.FullName" />
+                            <input type="text" name="name" autocomplete="off" placeholder="Имя и Фамилия" @bind="userDTO.Fullname" />
                         </div>
                         <div class="formInput">
                             <input type="email" name="email" autocomplete="off"  placeholder="Email" @bind="userDTO.Email" />
@@ -47,8 +47,8 @@
                         </p>
 
                         <a class="loginFormRegister" @onclick="OnValidSubmit">Зарегистрироваться</a>
-                        @*<a href="/" class="forgotpassword">Забыли пароль?</a>*@
-                    @*</form>*@
+                        <a href="/" class="forgotpassword">Забыли пароль?</a>
+                    </form>
                     <div class="orLoginWithGoogleOrfacebook">
                         <img src="/assets/img/or.png" alt="Login by Google or Facebook" />
                     </div>
@@ -90,33 +90,75 @@
 
     // Registration
 
+    //async System.Threading.Tasks.Task OnValidSubmit()
+    //{
+    //    var response = await ApiServices.Register(userDTO);
+
+    //    Console.WriteLine("Registered is: " + response);
+
+    //    if (response.IsSuccessStatusCode)
+    //    {
+    //        var json = await response.Content.ReadAsStringAsync();
+
+    //        using (JsonDocument doc = JsonDocument.Parse(json))
+    //        {
+    //            JsonElement root = doc.RootElement;
+
+    //            if (root.TryGetProperty("email", out JsonElement emailElement))
+    //            {
+    //                string email = emailElement.GetString()!;
+
+    //                Console.WriteLine(email);
+
+    //                await SaveToLocalStorage("email", email);
+    //            }
+    //        }
+
+    //        NavigationManager.NavigateTo("/login");
+    //    }
+    //}
+
     async System.Threading.Tasks.Task OnValidSubmit()
     {
-        var response = await ApiServices.Register(userDTO);
-
-        Console.WriteLine("Registered is: " + response);
-
-        if (response.IsSuccessStatusCode)
+        try
         {
-            var json = await response.Content.ReadAsStringAsync();
+            var response = await ApiServices.Register(userDTO);
 
-            using (JsonDocument doc = JsonDocument.Parse(json))
+            if (response.IsSuccessStatusCode)
             {
-                JsonElement root = doc.RootElement;
+                var json = await response.Content.ReadAsStringAsync();
 
-                if (root.TryGetProperty("email", out JsonElement emailElement))
+                using (JsonDocument doc = JsonDocument.Parse(json))
                 {
-                    string email = emailElement.GetString()!;
+                    JsonElement root = doc.RootElement;
 
-                    Console.WriteLine(email);
+                    if (root.TryGetProperty("email", out JsonElement emailElement))
+                    {
+                        string email = emailElement.GetString()!;
 
-                    await SaveToLocalStorage("email", email);
+                        Console.WriteLine(email);
+
+                        await SaveToLocalStorage("email", email);
+                    }
                 }
-            }
 
-            NavigationManager.NavigateTo("/login");
+                NavigationManager.NavigateTo("/login");
+            }
+            else
+            {
+                // Handle non-successful responses (e.g., display an error message to the user).
+            }
+        }
+        catch (JsonException ex)
+        {
+            // Handle JSON parsing errors.
+            Console.WriteLine("JSON parsing error: " + ex.Message);
+            // Optionally, display an error message to the user.
         }
     }
+
+
+
 
     private async System.Threading.Tasks.Task SaveToLocalStorage(string key, string value)
     {

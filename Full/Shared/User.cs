@@ -1,12 +1,14 @@
-﻿namespace Full.Shared
-{
-    public class User
-    {
-        public int Id { get; set; }
-        public string FullName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+﻿using Microsoft.AspNetCore.Identity;
 
-        public List<Course> Courses { get; set; }
+namespace Full.Shared
+{
+    public class User : IdentityUser
+    {
+
+        public int Id { get; set; }
+
+        public required string Fullname { get; set; }
+
+        public List<Course>? Courses { get; set; }
     }
 }

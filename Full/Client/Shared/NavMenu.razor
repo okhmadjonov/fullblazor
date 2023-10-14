@@ -16,19 +16,19 @@
         </div>
         <div class="lignin_signup">
 
-            @if (!string.IsNullOrEmpty(UserEmail))
+            @*@if (!string.IsNullOrEmpty(UserEmail))
             {
                 <a class="signin">@UserEmail</a>
                 <a @onclick="LogOut" class="logout"> &nbsp;Logout</a>
             }
             else
-            {
+            {*@
                 <a @onclick="ToLogin" class="signin">Войти</a>
                 <a @onclick="ToRegistration" class="signup">Регистрация</a>
 
 
 
-            }
+            @*}*@
 
 
         </div>
