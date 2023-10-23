@@ -1,8 +1,7 @@
 using Full.Server.Data;
 using Full.Server.Repositories;
+using Full.Server.Repository.Impl;
 using Full.Server.Services;
-using Full.Shared;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,28 +16,27 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddIdentity<User, IdentityRole>()
-    .AddEntityFrameworkStores<AppDbContext>()
-    .AddDefaultTokenProviders();
+
 
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
 
 
-
-builder.Services.AddScoped<ICourseRepository, CourseService>();
-builder.Services.AddScoped<ITeacherRepository, TeacherService>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IHomeworkRepository, HomeworkRepository>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<ITaskAnswerRepository, TaskAnswerRepository>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
+builder.Services.AddScoped<IEducationRepository, EducationRepository>();
+builder.Services.AddScoped<IFeedbackRepository, FeedbackRepository>();
+builder.Services.AddScoped<IResultRepository, ResultRepository>();
+builder.Services.AddScoped<ILessonRepository, LessonRepository>();
+builder.Services.AddScoped<ITestRepository, TestRepository>();
 
 
 var app = builder.Build();
-
-// For seeding data
-if (args.Length == 1 && args[0].ToLower() == "seeddata")
-{
-    await Seed.SeedUsersAndRolesAsync(app);
-    //Seed.SeedData(app);
-}
-
 
 
 // Configure the HTTP request pipeline.
@@ -65,8 +63,6 @@ app.MapControllers();
 app.MapFallbackToFile("index.html");
 
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();

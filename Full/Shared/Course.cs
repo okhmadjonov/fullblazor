@@ -9,3 +9,14 @@
         public double Price { get; set; }
     }
 }
+
+
+/*
+https://i.ibb.co/C6JZHtB/course-five.png
+https://i.ibb.co/cDXNy7T/course-one.png
+https://i.ibb.co/yS47Nqd/course-seven.png
+https://i.ibb.co/XzNFvxm/course-six.png
+https://i.ibb.co/7C5VRdw/course-three.png
+https://i.ibb.co/ykJKRTz/course-two.png
+
+*/

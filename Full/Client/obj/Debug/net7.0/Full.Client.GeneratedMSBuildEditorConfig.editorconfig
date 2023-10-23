@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Full.Client
 build_property.RootNamespace = Full.Client
-build_property.ProjectDir = C:\Users\pc\Desktop\fulls\Full\Full\Client\
+build_property.ProjectDir = C:\Users\nemo\Desktop\fulls\Full\Full\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pc\Desktop\fulls\Full\Full\Client
+build_property.MSBuildProjectDirectory = C:\Users\nemo\Desktop\fulls\Full\Full\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/App.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/About/About.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/About/About.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/AllCoursesPrices/AllCoursesPrices.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/AllCoursesPrices/AllCoursesPrices.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsQ291cnNlc1ByaWNlc1xBbGxDb3Vyc2VzUHJpY2VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/AllCourses/AllCourses.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/AllCourses/AllCourses.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsQ291cnNlc1xBbGxDb3Vyc2VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/Contact/Contact.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/Contact/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFxDb250YWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/Counter.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/Demo.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtby5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/FetchData.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/Index.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/Homework/Homework.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXdvcmtcSG9tZXdvcmsucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/Login/Login.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/Login/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/MyCourses/MyCourses.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/MyCourses/MyCourses.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDb3Vyc2VzXE15Q291cnNlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Pages/Registration/Registration.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Pages/Registration/Registration.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uXFJlZ2lzdHJhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Shared/Footer.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Shared/SurveyPrompt.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/_Imports.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Shared/MainLayout.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ppxwhz8xgf
 
-[C:/Users/pc/Desktop/fulls/Full/Full/Client/Shared/NavMenu.razor]
+[C:/Users/nemo/Desktop/fulls/Full/Full/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-u0abf733vi

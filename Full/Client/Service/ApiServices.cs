@@ -1,6 +1,9 @@
 ﻿using Full.Client.DTO;
 using Full.Shared;
 using System.Net.Http.Json;
+using Contact = Full.Shared.Contact;
+using Task = System.Threading.Tasks.Task;
+
 
 namespace Full.Client.Service
 {
@@ -23,18 +26,84 @@ namespace Full.Client.Service
             return teachers;
         }
 
-
-
-        public async Task<HttpResponseMessage> Login(LoginDTO loginDTO)
+        public async Task<List<Course>?> GetUserCourses(string email)
         {
-            var response = await _httpClient.PostAsJsonAsync("/api/Account/login", loginDTO);
+            var result = await _httpClient.GetFromJsonAsync<List<Course>>("/api/User/course?email=" + email);
+            return result;
+        }
+
+        public async Task<Full.Shared.Task> GetTask(string taskId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<Full.Shared.Task>("/api/Task/one?id=" + taskId);
+            return result;
+        }
+
+        public async Task<List<Homework>> GetHomeworkList()
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<Homework>>("api/Homework");
+            return result;
+        }
+
+        public async Task<HttpResponseMessage> Login(LoginDTO loginDto)
+        {
+            var response = await _httpClient.PostAsJsonAsync("/api/User/login", loginDto);
             return response;
         }
 
-        public async Task<HttpResponseMessage> Register(UserDTO userDTO)
+        public async Task<HttpResponseMessage> Register(UserDTO userDto)
         {
-            var response = await _httpClient.PostAsJsonAsync("/api/Account", userDTO);
+            var response = await _httpClient.PostAsJsonAsync("/api/User", userDto);
             return response;
         }
+
+        public async void AddContact(Contact contact)
+        {
+            await _httpClient.PostAsJsonAsync("api/Contact", contact);
+        }
+
+        public async void AddAnswer(TaskAnswerDTO taskAnswerDto)
+        {
+            await _httpClient.PostAsJsonAsync("/api/TaskAnswer", taskAnswerDto);
+        }
+
+        public async Task<Education> GetEducation(string courseId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<Education>("/api/Education/one?id=" + courseId);
+            return result;
+        }
+
+        public async Task<Course> GetCourse(string courseId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<Course>("/api/Course/one?id=" + courseId);
+            return result;
+        }
+
+        public async Task<List<Feedback>> GetFeedback(string educationId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<Feedback>>("/api/Feedback/one?id=" + educationId);
+            return result;
+        }
+
+        public async Task<List<Result>> GetResults(string educationId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<Result>>("/api/Result/one?id=" + educationId);
+            return result;
+        }
+
+        public async Task AddCourse(UserCourseDTO userCourseDto)
+        {
+            await _httpClient.PostAsJsonAsync("/api/User/course", userCourseDto);
+        }
+        public async Task<List<Lesson>> GetLesson(string courseId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<Lesson>>("/api/Lesson/one?id=" + courseId);
+            return result;
+        }
+        public async Task<List<Test>> GetTest(string lessonId)
+        {
+            var result = await _httpClient.GetFromJsonAsync<List<Test>>("/api/Test/one?id=" + lessonId);
+            return result;
+        }
+
     }
 }

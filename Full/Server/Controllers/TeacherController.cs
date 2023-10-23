@@ -17,10 +17,8 @@ namespace Full.Server.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-
-            var teachers = await _teacherRepository.GetAllTeachers();
+            var teachers = await _teacherRepository.GetAllTeacherAsync();
             return Ok(teachers);
         }
-
     }
 }

@@ -31,7 +31,7 @@
                 <div class="loginForm">
                     <form>
                         <div class="formInput">
-                            <input type="text" name="name" autocomplete="off" placeholder="Имя и Фамилия" @bind="userDTO.Fullname" />
+                            <input type="text" name="name" autocomplete="off" placeholder="Имя и Фамилия" @bind="userDTO.FullName" />
                         </div>
                         <div class="formInput">
                             <input type="email" name="email" autocomplete="off"  placeholder="Email" @bind="userDTO.Email" />
@@ -90,72 +90,72 @@
 
     // Registration
 
-    //async System.Threading.Tasks.Task OnValidSubmit()
-    //{
-    //    var response = await ApiServices.Register(userDTO);
-
-    //    Console.WriteLine("Registered is: " + response);
-
-    //    if (response.IsSuccessStatusCode)
-    //    {
-    //        var json = await response.Content.ReadAsStringAsync();
-
-    //        using (JsonDocument doc = JsonDocument.Parse(json))
-    //        {
-    //            JsonElement root = doc.RootElement;
-
-    //            if (root.TryGetProperty("email", out JsonElement emailElement))
-    //            {
-    //                string email = emailElement.GetString()!;
-
-    //                Console.WriteLine(email);
-
-    //                await SaveToLocalStorage("email", email);
-    //            }
-    //        }
-
-    //        NavigationManager.NavigateTo("/login");
-    //    }
-    //}
-
     async System.Threading.Tasks.Task OnValidSubmit()
     {
-        try
+        var response = await ApiServices.Register(userDTO);
+
+        Console.WriteLine("Registered as: " + response);
+
+        if (response.IsSuccessStatusCode)
         {
-            var response = await ApiServices.Register(userDTO);
+            var json = await response.Content.ReadAsStringAsync();
 
-            if (response.IsSuccessStatusCode)
+            using (JsonDocument doc = JsonDocument.Parse(json))
             {
-                var json = await response.Content.ReadAsStringAsync();
+                JsonElement root = doc.RootElement;
 
-                using (JsonDocument doc = JsonDocument.Parse(json))
+                if (root.TryGetProperty("email", out JsonElement emailElement))
                 {
-                    JsonElement root = doc.RootElement;
+                    string email = emailElement.GetString()!;
 
-                    if (root.TryGetProperty("email", out JsonElement emailElement))
-                    {
-                        string email = emailElement.GetString()!;
+                    Console.WriteLine(email);
 
-                        Console.WriteLine(email);
-
-                        await SaveToLocalStorage("email", email);
-                    }
+                    await SaveToLocalStorage("email", email);
                 }
+            }
 
-                NavigationManager.NavigateTo("/login");
-            }
-            else
-            {
-                // Handle non-successful responses (e.g., display an error message to the user).
-            }
-        }
-        catch (JsonException ex)
-        {
-            // Handle JSON parsing errors.
-            Console.WriteLine("JSON parsing error: " + ex.Message);
-            // Optionally, display an error message to the user.
+            NavigationManager.NavigateTo("/login");
         }
     }
+
+    //async System.Threading.Tasks.Task OnValidSubmit()
+    //{
+    //    try
+    //    {
+    //        var response = await ApiServices.Register(userDTO);
+
+    //        if (response.IsSuccessStatusCode)
+    //        {
+    //            var json = await response.Content.ReadAsStringAsync();
+
+    //            using (JsonDocument doc = JsonDocument.Parse(json))
+    //            {
+    //                JsonElement root = doc.RootElement;
+
+    //                if (root.TryGetProperty("email", out JsonElement emailElement))
+    //                {
+    //                    string email = emailElement.GetString()!;
+
+    //                    Console.WriteLine(email);
+
+    //                    await SaveToLocalStorage("email", email);
+    //                }
+    //            }
+
+    //            NavigationManager.NavigateTo("/login");
+    //        }
+    //        else
+    //        {
+    //            // Handle non-successful responses (e.g., display an error message to the user).
+    //        }
+    //    }
+    //    catch (JsonException ex)
+    //    {
+    //        // Handle JSON parsing errors.
+    //        Console.WriteLine("JSON parsing error: " + ex.Message);
+    //        // Optionally, display an error message to the user.
+    //    }
+    //}
 
 
 

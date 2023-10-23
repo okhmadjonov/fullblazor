@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj": {}
+    "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj": {
+    "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj",
+        "projectUniqueName": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj",
         "projectName": "Full.Client",
-        "projectPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\obj\\",
+        "projectPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj",
+        "packagesPath": "C:\\Users\\nemo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nemo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj": {
-                "projectPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj"
+              "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj": {
+                "projectPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj"
               }
             }
           }
@@ -52,6 +52,14 @@
               "target": "Package",
               "version": "[1.4.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -61,6 +69,10 @@
               "target": "Package",
               "version": "[7.0.12, )"
             },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -68,6 +80,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -105,17 +121,17 @@
         }
       }
     },
-    "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj": {
+    "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj",
+        "projectUniqueName": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj",
         "projectName": "Full.Server",
-        "projectPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Server\\obj\\",
+        "projectPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Server\\Full.Server.csproj",
+        "packagesPath": "C:\\Users\\nemo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nemo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,11 +145,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj": {
-                "projectPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj"
+              "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj": {
+                "projectPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\Full.Client.csproj"
               },
-              "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj": {
-                "projectPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj"
+              "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj": {
+                "projectPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj"
               }
             }
           }
@@ -152,6 +168,14 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -159,6 +183,10 @@
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -179,6 +207,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -212,17 +244,17 @@
         }
       }
     },
-    "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj": {
+    "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj",
         "projectName": "Full.Shared",
-        "projectPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\fulls\\Full\\Full\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\Full.Shared.csproj",
+        "packagesPath": "C:\\Users\\nemo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nemo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -248,6 +280,18 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -255,6 +299,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

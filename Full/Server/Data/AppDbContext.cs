@@ -1,10 +1,9 @@
 ﻿using Full.Shared;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Full.Server.Data
 {
-    public class AppDbContext : IdentityDbContext<User>
+    public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -20,7 +19,7 @@ namespace Full.Server.Data
         public DbSet<Education> Education { get; set; }
         public DbSet<Feedback> Feedback { get; set; }
         public DbSet<Result> Result { get; set; }
-        public DbSet<Test> Tests { get; set; }
+        public DbSet<Test> Test { get; set; }
 
 
     }
