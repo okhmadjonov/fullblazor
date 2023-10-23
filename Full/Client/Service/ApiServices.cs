@@ -14,10 +14,10 @@ namespace Full.Client.Service
         public ApiServices(HttpClient httpClient) => _httpClient = httpClient;
 
 
-        public async Task<List<Course>> GetAllCourses()
+        public async Task<List<Course>> GetCourseList()
         {
-            var courses = await _httpClient.GetFromJsonAsync<List<Course>>("api/Course");
-            return courses;
+            var result = await _httpClient.GetFromJsonAsync<List<Course>>("api/Course");
+            return result;
         }
 
         public async Task<List<Teacher>> GetAllTeachers()

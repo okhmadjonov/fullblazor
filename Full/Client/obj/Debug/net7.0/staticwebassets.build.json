@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ckmYHQ4K6uKWIKSBToa+aB7AiVd1FAisTUuI7VWUU1c=",
+  "Hash": "2y4Qx9s7TUtpapyY8VqEjQwLNUeo5Zg2dFmDprsrXe0=",
   "Source": "Full.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -9297,6 +9297,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\MyCoursesStyle\\MyCoursesStyle.scss"
+    },
+    {
+      "Identity": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\PasswordStyleSheet.css",
+      "SourceId": "Full.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/PasswordStyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\PasswordStyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css",

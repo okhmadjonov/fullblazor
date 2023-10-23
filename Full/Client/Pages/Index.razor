@@ -62,7 +62,7 @@
     protected override async System.Threading.Tasks.Task OnInitializedAsync()
 
     {
-        var result = ApiServices.GetAllCourses();
+        var result = ApiServices.GetCourseList();
         if (result is not null)
 
         {

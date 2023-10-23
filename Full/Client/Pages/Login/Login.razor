@@ -42,7 +42,7 @@
                     </p>
 
                     <a @onclick="OnValidSubmit" class="loginFormLogin">Войти</a>
-                    <a href="/" class="forgotpassword">Забыли пароль?</a>
+                    <a @onclick="ToPassword" class="forgotpassword" style="cursor:pointer;">Забыли пароль?</a>
                 </form>
                 <div class="orLoginWithGoogleOrfacebook">
                     <img src="/assets/img/or.png" alt="Login by Google or Facebook" />
@@ -89,6 +89,12 @@
     {
 
         NavigationManager.NavigateTo("/login");
+
+    }
+      void ToPassword()
+    {
+
+        NavigationManager.NavigateTo("/password");
 
     }
 

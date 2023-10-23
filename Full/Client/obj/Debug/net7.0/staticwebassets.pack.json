@@ -213,6 +213,10 @@
       "PackagePath": "staticwebassets\\css\\MyCoursesStyle\\MyCoursesStyle.scss"
     },
     {
+      "Id": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\PasswordStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\PasswordStyleSheet.css"
+    },
+    {
       "Id": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\css\\RegistrationStyle\\RegistrationStyle.css",
       "PackagePath": "staticwebassets\\css\\RegistrationStyle\\RegistrationStyle.css"
     },
