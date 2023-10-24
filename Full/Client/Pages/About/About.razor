@@ -5,6 +5,7 @@
 @inject IJSRuntime JsRuntime
 @inject ApiServices ApiServices
 @inject NavigationManager NavigationManager
+@inject LocalStorageService LocalStorageService
 
 
 <div class="about">
@@ -77,17 +78,45 @@
 
 @code {
 
-    private List<Teacher>? teachers = new List<Teacher>();
+    private string UserEmail = String.Empty;
+    List<Teacher> teachers = new List<Teacher>();
 
     protected override async System.Threading.Tasks.Task OnInitializedAsync()
-
     {
-        var result = ApiServices.GetAllTeachers();
-        if (result is not null)
-
+        var email = await LocalStorageService.GetEmailFromLocalStorage();
+        UserEmail = email;
+        if (string.IsNullOrEmpty(UserEmail))
         {
-            teachers = await result;
-        }
+            await JsRuntime.InvokeVoidAsync("hide");
 
+        }
+        else
+        {
+            await JsRuntime.InvokeVoidAsync("open");
+        }
+        var result = await ApiServices.GetTeacherList();
+        if (result != null)
+        {
+            teachers = result;
+        }
+    }
+
+    private int displayCount = 15;
+
+    private void LoadMore()
+    {
+        displayCount += 6;
+    }
+
+    void ToMain()
+    {
+        if (string.IsNullOrEmpty(UserEmail))
+        {
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/user");
+        }
     }
 }

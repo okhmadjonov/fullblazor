@@ -1,7 +1,6 @@
 ﻿@page "/user/course"
 @using Full.Client.Service
 @using Full.Shared
-@using Full.Client.Service;
 @inject HttpClient Http
 @inject IJSRuntime JsRuntime
 @inject NavigationManager NavigationManager
@@ -10,71 +9,9 @@
 
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-            text-decoration: none;
-        }
+   
 
-        ul {
-            margin-bottom: 0;
-            padding: 0 !important;
-        }
-
-        a {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        header {
-            background-color: #fff;
-        }
-
-        .container-s {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .header__container {
-            padding: 14px 0;
-            display: flex;
-            align-items: center;
-        }
-
-            .header__container img {
-                margin: 0 auto;
-            }
-
-        .header__list {
-            display: flex;
-            gap: 30px;
-        }
-
-        .header__auth {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-            margin-left: auto;
-        }
-
-            .header__auth a {
-                cursor: pointer;
-            }
-
-        .header__logo {
-            display: flex;
-            align-items: center;
-            margin-right: auto;
-            cursor: pointer;
-        }
-
-            .header__logo img {
-                width: 42px;
-                height: 42px;
-            }
+    
 
         .contact__bg {
             background-image: url(https://images.pexels.com/photos/5553050/pexels-photo-5553050.jpeg?auto=compress&cs=tinysrgb&w=1600);
@@ -92,43 +29,8 @@
                 color: white;
             }
 
-        .footer {
-            background: #111;
-            color: #949393 !important;
-        }
-
-        .footer__container {
-            display: flex;
-            gap: 250px;
-            padding-top: 70px;
-            padding-bottom: 54px;
-        }
-
-        .footer__item {
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-        }
-
-        .footer__logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .footer__item img {
-            width: 42px;
-            height: 42px;
-            border-radius: 50%;
-        }
-
-        .footer h6 {
-            color: #fff;
-        }
-
-        .footer h1 {
-            color: #fff;
-        }
+  
+  
 
         h1 {
             margin: 0;

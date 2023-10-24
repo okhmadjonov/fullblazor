@@ -20,10 +20,10 @@ namespace Full.Client.Service
             return result;
         }
 
-        public async Task<List<Teacher>> GetAllTeachers()
+        public async Task<List<Teacher>> GetTeacherList()
         {
-            var teachers = await _httpClient.GetFromJsonAsync<List<Teacher>>("api/Teacher");
-            return teachers;
+            var result = await _httpClient.GetFromJsonAsync<List<Teacher>>("api/Teacher");
+            return result;
         }
 
         public async Task<List<Course>?> GetUserCourses(string email)

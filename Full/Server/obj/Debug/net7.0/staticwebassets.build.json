@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hS+8ZiUBLE3ZSERrizDAzbI5HJX0HCepzeJyQXBWN1o=",
+  "Hash": "bnBu6bww4XO2kr505Um7qyj/7dxUgnamv78m4pXTewU=",
   "Source": "Full.Server",
   "BasePath": "_content/Full.Server",
   "Mode": "Default",
@@ -8680,6 +8680,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\home_banner.png"
+    },
+    {
+      "Identity": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\homework\\homework.png",
+      "SourceId": "Full.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/img/homework/homework.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\homework\\homework.png"
     },
     {
       "Identity": "C:\\Users\\nemo\\Desktop\\fulls\\Full\\Full\\Client\\wwwroot\\assets\\img\\locationMap.png",

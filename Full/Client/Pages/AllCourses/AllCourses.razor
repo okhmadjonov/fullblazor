@@ -5,6 +5,8 @@
 @inject IJSRuntime JsRuntime
 @inject ApiServices ApiServices
 @inject NavigationManager NavigationManager
+@inject LocalStorageService LocalStorageService
+
 
 
     <div class="allCourses">
@@ -68,18 +70,51 @@
 
 
 @code {
-    private List<Course>? courses = new List<Course>();
+    private string UserEmail = String.Empty;
+    private int displayCount = 15;
+
+    private void LoadMore()
+    {
+        displayCount += 6;
+    }
+
+    List<Course> courses = new List<Course>();
 
     protected override async System.Threading.Tasks.Task OnInitializedAsync()
-
     {
-        var result = ApiServices.GetCourseList();
-        if (result is not null)
-
+        var email = await LocalStorageService.GetEmailFromLocalStorage();
+        UserEmail = email;
+        if (string.IsNullOrEmpty(UserEmail))
         {
-            courses = await result;
-            Console.Write("Your courses are : " + courses);
-        }
+            await JsRuntime.InvokeVoidAsync("hide");
 
+        }
+        else
+        {
+            await JsRuntime.InvokeVoidAsync("open");
+        }
+        var result = await ApiServices.GetCourseList();
+        if (result != null)
+        {
+            courses = result;
+        }
+    }
+
+    void ToMain()
+    {
+        if (string.IsNullOrEmpty(UserEmail))
+        {
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/user");
+        }
+    }
+
+    async void ToAboutCourse(Course course)
+    {
+        await JsRuntime.InvokeVoidAsync("localStorage.setItem", "courseId", course.Id);
+        NavigationManager.NavigateTo("/aboutcourse");
     }
 }
